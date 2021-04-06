@@ -64,8 +64,7 @@ for (k = 0; k < 16; k++) {
 // >> 7
 // >> 9
 // ==========================================
-var total = 9;
-var bunny;
+let total = 9;
 for (bunny = 0; bunny <= 9; bunny++) {
     if (bunny >= 3) {
         if (bunny >= 6)  {
