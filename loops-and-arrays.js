@@ -43,11 +43,6 @@ for (j=0; j < numbers.length; j++) {
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
 
-const squares = [30, 2, 8, 24, 11];
-console.log(squares);
-for (k=0; k < squares.length; k++){
-  console.log(squares[k] * squares[k] * squares[k]);
-}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
