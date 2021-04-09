@@ -7,10 +7,6 @@
 // ==========================================
 
 
-for (let i = 0; i < 3; i++){
-    console.log("Hoera!");
-}
-
 // ==========================================
 // Opdracht 2. Maak een for-loop die 4 keer het woord "loop..." logt, en bij de vijfde loop het woord "klaar!"
 // Verwachte uitkomsten:
@@ -20,12 +16,7 @@ for (let i = 0; i < 3; i++){
 // loop...
 // klaar!
  // ==========================================
-for (let j = 0; j < 4; j++) {
-    console.log("loop..");
-    if (j === 3) {
-        console.log("Klaar!");
-    }
-}
+
 
 
 // ==========================================
@@ -40,14 +31,6 @@ for (let j = 0; j < 4; j++) {
 
 // Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over..
 // ==========================================
-for (k = 0; k < 16; k++) {
-    if(k % 2) {
-        console.log(k + " Oneven");
-    }
-    else {
-        console.log(k + " Even");
-    }
-}
 
 
 // ==========================================
@@ -64,18 +47,3 @@ for (k = 0; k < 16; k++) {
 // >> 7
 // >> 9
 // ==========================================
-var total = 9;
-var bunny;
-for (bunny = 0; bunny <= 9; bunny++) {
-    if (bunny >= 3) {
-        if (bunny >= 6)  {
-            console.log(">>" + bunny);
-        } else {
-            console.log(">" + bunny);
-        }
-    } else {
-        console.log(`${bunny}`);
-    }
-    total += bunny;
-}
-console.log("The total is: " + total);
